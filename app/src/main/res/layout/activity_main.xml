@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    tools:context="com.example.giddu.musicalstructureapp.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/artistsBar"
+        style="@style/ListItem"
+        android:onClick="artistsClick">
+        <ImageView
+            style="@style/MainIcon"
+            android:src="@drawable/ic_artists"/>
+        <TextView
+            style="@style/MainText"
+            android:text="Artists" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/playlistsBar"
+        style="@style/ListItem"
+        android:onClick="playlistsClick">
+        <ImageView
+            style="@style/MainIcon"
+            android:src="@drawable/ic_playlists"/>
+        <TextView
+            style="@style/MainText"
+            android:text="Playlists" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/radioBar"
+        style="@style/ListItem"
+        android:onClick="radioClick">
+        <ImageView
+            style="@style/MainIcon"
+            android:src="@drawable/ic_radio"/>
+        <TextView
+            style="@style/MainText"
+            android:text="Radio" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/songsBar"
+        style="@style/ListItem"
+        android:onClick="songClick">
+        <ImageView
+            style="@style/MainIcon"
+            android:src="@drawable/ic_songs"/>
+        <TextView
+            style="@style/MainText"
+            android:text="Songs" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/nowPlayingBar"
+        style="@style/ListItem"
+        android:onClick="nowPlayingClick">
+        <ImageView
+            style="@style/MainIcon"
+            android:src="@drawable/ic_play"/>
+        <TextView
+            style="@style/MainText"
+            android:text="Now Playing" />
+    </LinearLayout>
+
+
+
+    <!-- How do I add a border to a listview items? -->
+
+
+</LinearLayout>

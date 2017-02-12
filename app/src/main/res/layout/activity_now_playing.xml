@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_now_playing"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context="com.example.giddu.musicalstructureapp.NowPlayingActivity">
+
+    <ImageView
+        style="@style/MainIcon"
+        android:id="@+id/backIcon"
+        android:src="@drawable/ic_back"
+        android:onClick="goBack"/>
+
+    <ImageView
+        style="@style/MainIcon"
+        android:src="@drawable/ic_volume"
+        android:layout_alignParentRight="true"/>
+
+    <ImageView
+        android:id="@+id/songImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/song"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryText"
+        android:textStyle="bold"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="Bad Company"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/backIcon"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorSecondaryText"
+        android:textStyle="bold"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:layout_marginTop="8dp"
+        android:text="Five Finger Death Punch"
+        android:layout_below="@id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        style="@style/MainIcon"
+        android:id="@+id/playIcon"
+        android:src="@drawable/ic_play"
+        android:layout_below="@id/songImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"/>
+
+    <ImageView
+        style="@style/MainIcon"
+        android:layout_toLeftOf="@id/playIcon"
+        android:src="@drawable/ic_previous"
+        android:layout_below="@id/songImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"/>
+
+    <ImageView
+        style="@style/MainIcon"
+        android:layout_toRightOf="@id/playIcon"
+        android:src="@drawable/ic_next"
+        android:layout_below="@id/songImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"/>
+
+</RelativeLayout>
