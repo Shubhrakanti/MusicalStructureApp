@@ -11,6 +11,6 @@
     tools:context="com.example.giddu.musicalstructureapp.PlaylistsActivity">
     <TextView
         style="@style/MainText"
-        android:text="Currently under Development, please comeback later :)"/>
+        android:text="Once you addd songs, you can make playlists and save them here in a list"/>
 
 </RelativeLayout>

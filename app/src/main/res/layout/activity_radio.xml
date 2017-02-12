@@ -12,6 +12,6 @@
 
     <TextView
         style="@style/MainText"
-        android:text="Currently under Development, please comeback later :)"/>
+        android:text="this activity will show a list off radio stations based on the songs that you play"/>
 
 </RelativeLayout>

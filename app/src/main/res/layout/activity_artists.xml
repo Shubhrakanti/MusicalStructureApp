@@ -11,6 +11,6 @@
     tools:context="com.example.giddu.musicalstructureapp.ArtistsActivity">
     <TextView
         style="@style/MainText"
-        android:text="Currently under Development, please comeback later :)"/>
+        android:text="Once songs are imported, this screen will show list of all your artists"/>
 
 </RelativeLayout>

@@ -12,6 +12,6 @@
 
     <TextView
         style="@style/MainText"
-        android:text="Currently under Development, please comeback later :)"/>
+        android:text="once you add songs, this will show a lost of all your songs in alphabetical order)"/>
 
 </RelativeLayout>
